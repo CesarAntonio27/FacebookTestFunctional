@@ -5,8 +5,10 @@
     <classes>
       <class name="com.titanium.automation.FacebookTest">
         <methods>
+          <include name="createPost"/>
           <include name="beforeSuite"/>
           <include name="deletePost"/>
+          <include name="editPost"/>
           <include name="afterSuite"/>
         </methods>
       </class> <!-- com.titanium.automation.FacebookTest -->
