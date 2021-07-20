@@ -5,6 +5,10 @@
 	<groupId>com.titanium.automation</groupId>
 	<artifactId>FacebookTestingFramework</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<properties>
+    	<maven.compiler.source>1.6</maven.compiler.source>
+   		<maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -17,6 +21,5 @@
 			<version>6.8</version>
 			<scope>test</scope>
 		</dependency>
-
 	</dependencies>
 </project>
