@@ -93,8 +93,8 @@ public class FacebookTest {
 		//crea la publicacion
 		driver.findElement(inicioLocator).click();
 		Thread.sleep(5000);
-		driver.findElement(By.xpath("(//div[@aria-label='Ahora no'])[2]")).click();
-		Thread.sleep(2000);
+		//driver.findElement(By.xpath("(//div[@aria-label='Ahora no'])[2]")).click();
+		//Thread.sleep(2000);
 		driver.findElement(newpublicationLocator).click();
 		Thread.sleep(3000);
 		driver.findElement(publicationtextLocator).sendKeys("hola mundo,");

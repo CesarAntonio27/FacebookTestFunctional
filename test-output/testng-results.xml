@@ -2,32 +2,32 @@
 <testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-20T20:51:49Z" name="Default suite" finished-at="2021-07-20T20:52:57Z" duration-ms="68578">
+  <suite started-at="2021-07-21T18:49:27Z" name="Default suite" finished-at="2021-07-21T18:50:33Z" duration-ms="66503">
     <groups>
     </groups>
-    <test started-at="2021-07-20T20:51:49Z" name="Default test" finished-at="2021-07-20T20:52:57Z" duration-ms="68578">
+    <test started-at="2021-07-21T18:49:27Z" name="Default test" finished-at="2021-07-21T18:50:33Z" duration-ms="66503">
       <class name="com.titanium.automation.FacebookTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-20T15:51:46Z" name="beforeSuite" finished-at="2021-07-20T15:51:49Z" duration-ms="2397" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:49:24Z" name="beforeSuite" finished-at="2021-07-21T13:49:27Z" duration-ms="2150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="createAccount()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-20T15:51:49Z" name="createAccount" finished-at="2021-07-20T15:52:06Z" duration-ms="16779" status="PASS">
+        <test-method signature="createAccount()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:49:27Z" name="createAccount" finished-at="2021-07-21T13:49:43Z" duration-ms="16853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-        <test-method signature="createPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-20T15:52:06Z" name="createPost" finished-at="2021-07-20T15:52:24Z" duration-ms="18866" status="PASS">
+        <test-method signature="createPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:49:43Z" name="createPost" finished-at="2021-07-21T13:50:00Z" duration-ms="16709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method signature="editPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-20T15:52:24Z" name="editPost" finished-at="2021-07-20T15:52:46Z" duration-ms="21581" status="PASS">
+        <test-method signature="editPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:50:00Z" name="editPost" finished-at="2021-07-21T13:50:22Z" duration-ms="21622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editPost -->
-        <test-method signature="deletePost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-20T15:52:46Z" name="deletePost" finished-at="2021-07-20T15:52:57Z" duration-ms="11312" status="PASS">
+        <test-method signature="deletePost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:50:22Z" name="deletePost" finished-at="2021-07-21T13:50:33Z" duration-ms="11291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-20T15:52:57Z" name="afterSuite" finished-at="2021-07-20T15:53:06Z" duration-ms="8856" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:50:33Z" name="afterSuite" finished-at="2021-07-21T13:50:42Z" duration-ms="8820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
