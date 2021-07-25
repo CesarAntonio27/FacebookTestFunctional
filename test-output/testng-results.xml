@@ -2,32 +2,71 @@
 <testng-results total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-21T18:49:27Z" name="Default suite" finished-at="2021-07-21T18:50:33Z" duration-ms="66503">
+  <suite started-at="2021-07-25T00:00:27Z" name="Default suite" finished-at="2021-07-25T00:01:34Z" duration-ms="66740">
     <groups>
     </groups>
-    <test started-at="2021-07-21T18:49:27Z" name="Default test" finished-at="2021-07-21T18:50:33Z" duration-ms="66503">
+    <test started-at="2021-07-25T00:00:27Z" name="Default test" finished-at="2021-07-25T00:01:34Z" duration-ms="66740">
       <class name="com.titanium.automation.FacebookTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:49:24Z" name="beforeSuite" finished-at="2021-07-21T13:49:27Z" duration-ms="2150" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-24T19:00:25Z" name="beforeSuite" finished-at="2021-07-24T19:00:27Z" duration-ms="1901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="createAccount()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:49:27Z" name="createAccount" finished-at="2021-07-21T13:49:43Z" duration-ms="16853" status="PASS">
+        <test-method signature="createAccount()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-24T19:00:27Z" name="createAccount" finished-at="2021-07-24T19:00:44Z" duration-ms="17200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccount -->
-        <test-method signature="createPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:49:43Z" name="createPost" finished-at="2021-07-21T13:50:00Z" duration-ms="16709" status="PASS">
+        <test-method signature="createPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-24T19:00:44Z" name="createPost" finished-at="2021-07-24T19:01:01Z" duration-ms="16679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createPost -->
-        <test-method signature="editPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:50:00Z" name="editPost" finished-at="2021-07-21T13:50:22Z" duration-ms="21622" status="PASS">
+        <test-method signature="editPost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-24T19:01:01Z" name="editPost" finished-at="2021-07-24T19:01:22Z" duration-ms="21560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editPost -->
-        <test-method signature="deletePost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:50:22Z" name="deletePost" finished-at="2021-07-21T13:50:33Z" duration-ms="11291" status="PASS">
+        <test-method signature="deletePost()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-24T19:01:22Z" name="deletePost" finished-at="2021-07-24T19:01:34Z" duration-ms="11267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletePost -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-21T13:50:33Z" name="afterSuite" finished-at="2021-07-21T13:50:42Z" duration-ms="8820" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.titanium.automation.FacebookTest@7e8a46b7]" started-at="2021-07-24T19:01:34Z" name="afterSuite" finished-at="2021-07-24T19:01:34Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchSessionException">
+            <message>
+              <![CDATA[Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J6GS6GA', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-J6GS6GA', ip: '192.168.0.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at com.titanium.automation.FacebookTest.afterSuite(FacebookTest.java:157)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

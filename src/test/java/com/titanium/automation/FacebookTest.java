@@ -154,6 +154,7 @@ public class FacebookTest {
 		driver.findElement(logoutLocator).click();
 		Thread.sleep(5000);
 		driver.quit();
+		driver.close();
   }
   
   
